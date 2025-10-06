@@ -34,8 +34,9 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-API_URL = "http://127.0.0.1:8000/transactions"
-BASE_API_URL = "http://127.0.0.1:8000"
+# BASE_API_URL = "http://127.0.0.1:8000"
+BASE_API_URL = "https://pythonfullstackproject-l13w.onrender.com"
+API_URL = f"{BASE_API_URL}/transactions"
 
 # ============================= SESSION STATE =============================
 if 'logged_in' not in st.session_state:
