@@ -1,5 +1,9 @@
-streamlit>=1.29
-supabse>=2.0.2
-fastapi>=0.104.1
-uvicorn>=0.24.0
-python-dotenv>=1.0.0
+fastapi==0.104.1
+uvicorn==0.24.0
+streamlit==1.28.1
+pandas==2.1.3
+matplotlib==3.8.2
+requests==2.31.0
+supabase==2.0.2
+python-dotenv==1.0.0
+pydantic==2.5.0
